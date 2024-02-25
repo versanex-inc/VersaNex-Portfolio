@@ -43,6 +43,9 @@ const NavSmall = () => {
               <Link href="/about">ABOUT</Link>
             </li>
             <li>
+              <Link href="/projects">PROJECTS</Link>
+            </li>
+            <li>
               <Link href="/contact">CONTACT</Link>
             </li>
           </ul>
