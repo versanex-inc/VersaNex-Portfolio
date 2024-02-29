@@ -1,5 +1,5 @@
 import { connectionStr } from "@/utils/db";
-import { Contact } from "@/utils/models/contact";
+import { Project } from "@/utils/models/project";
 import mongoose from "mongoose";
 import { NextResponse } from "next/server";
 
@@ -10,11 +10,11 @@ export async function POST(request) {
 
     await mongoose.connect(connectionStr);
 
-    let contact = new Contact(payload);
+    let project = new Project(payload);
 
-    // Save the message to the database
-    const result = await contact.save();
-    console.log("Message saved successfully:");
+    // Save the project to the database
+    const result = await project.save();
+    console.log("Project saved successfully:");
 
     return NextResponse.json({ result, success: true });
   } catch (error) {
