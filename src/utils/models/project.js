@@ -26,9 +26,11 @@ const projectModel = new mongoose.Schema({
   },
   category: {
     type: String,
+    enum: ["gfx", "programming"],
   },
   subCategory: {
     type: String,
+    enum: ["illustration", "gfx", "3d", "eshop", "bzness", "portfolio"],
   },
   status: {
     type: String,

@@ -2326,6 +2326,176 @@ body.light-mode .video-bg:before {
   }
 }
 
+
+/* ADMIN MODULE  */
+.a_container{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.a_form{
+  margin: var(--mb-3) 0 var(--mb-3) 0;
+  width: 90%;
+}
+.desc_group{
+  display: flex;
+  flex-direction: column;
+}
+.desc_group textarea{
+  background: var(--light-dark-color);
+  color: var(--full-bright-color);
+}
+.group_dropdowns{
+  display: flex;
+  justify-content: space-between;
+}
+.admin_group select{
+  width: 5rem;
+  padding: .5rem;
+  font-size: var(--extra-extra-smaller-font-size);
+}
+.admin_form_submit_button{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.admin_form_submit{
+  width: 8rem;
+  height: 2.5rem;
+  margin-top: 1rem;
+}
+@media screen and (min-width: 350px){
+  .admin_group select{
+    width: 7rem;
+    padding: .5rem;
+    font-size: var(--extra-smaller-font-size);
+  }
+}
+@media screen and (min-width: 568px){
+  .a_form{
+    width: 70%;
+  }
+}
+@media screen and (min-width: 778px){
+  .a_form{
+    width: 60%;
+  }
+  .admin_contact_heading{
+    font-size: var(--h2-font-size);
+  }
+}
+@media screen and (min-width: 1024px){
+  .admin_form{
+    width: 100%;
+  }
+}
+
+
+
+
+
+/* admin view messages  */
+.a_view_messages{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.aw_heading{
+  font-size: var(--smaller-font-size);
+}
+.a_msg_boxes{
+  margin-top: 1rem;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+.a_msg{
+  padding: var(--mb-1);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border: 1px solid var(--border-color);
+  border-radius: 7px;
+}
+.a_msg_boxes span{
+  font-size: .8rem;
+}
+.a_msg{
+  margin-top: 1rem;
+}
+@media screen and (min-width: 350px){
+  .aw_heading{
+    font-size: var(--h1-font-size);
+  }
+}
+@media screen and (min-width: 568px){
+  .a_msg_boxes span{
+    font-size: var(--normal-font-size);
+  }
+}
+@media screen and (min-width: 778px){
+  .a_msg_boxes{
+    margin-top: 1rem;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  .a_msg{
+    margin: 0;
+  }
+  .a_msg_boxes span{
+    font-size: var(--small-font-size);
+  }
+}
+@media screen and (min-width: 1024px){
+  .a_msg_boxes{
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+  }
+  .a_msg{
+    margin: 0;
+  }
+  .a_msg_boxes span{
+    font-size: var(--small-font-size);
+  }
+}
+
+/* admin Login */
+.admin_login_form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* admin signout  */
+.admin_signout{
+  cursor: pointer;
+  z-index: var(--z-largest);
+  position: fixed;
+  top: 1rem;
+  right: 2rem;
+  width: 5rem;
+  height: 2.5rem;
+  color: var(--full-dark-color);
+}
+.view_messages{
+  cursor: pointer;
+  z-index: var(--z-largest);
+  position: fixed;
+  top: 1rem;
+  left: 2rem;
+  width: 7rem;
+  height: 2.5rem;
+}
+.view_messages a{
+  color: var(--full-dark-color);
+}
 /* scroll bar  */
 ::-webkit-scrollbar {
   width: 6px;
