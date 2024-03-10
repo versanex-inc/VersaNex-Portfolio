@@ -41,8 +41,8 @@ const Skills = () => {
               <PiBracketsCurlyBold />
             </span>
             <div className="ab_skills_header_info">
-              <h2 className="ab_skills_title">Frontend Developer</h2>
-              <span className="ab_skills_subtitle">More then 4 years</span>
+              <h2 className="ab_skills_title">Frontend Developers</h2>
+              <span className="ab_skills_subtitle">More then 4 years of Exp.</span>
             </div>
             <span
               className="ab_skills_arrow "
@@ -99,8 +99,8 @@ const Skills = () => {
               <FaDatabase />
             </span>
             <div className="ab_skills_header_info">
-              <h2 className="ab_skills_title">Backend Developer</h2>
-              <span className="ab_skills_subtitle">More then 4 years</span>
+              <h2 className="ab_skills_title">Backend Developers</h2>
+              <span className="ab_skills_subtitle">More then 3 years of Exp.</span>
             </div>
             <span
               className="ab_skills_arrow "
@@ -148,8 +148,8 @@ const Skills = () => {
               <FaPaintBrush />
             </span>
             <div className="ab_skills_header_info">
-              <h2 className="ab_skills_title">Graphics Designing</h2>
-              <span className="ab_skills_subtitle">More then 4 years</span>
+              <h2 className="ab_skills_title">Graphics Designers</h2>
+              <span className="ab_skills_subtitle">More then 6 years of Exp.</span>
             </div>
             <span
               className="ab_skills_arrow"

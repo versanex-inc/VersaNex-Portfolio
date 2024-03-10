@@ -1,3 +1,4 @@
+'use client'
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -89,7 +90,9 @@ const About_US = () => {
           </div>
         </div>
         <div className="ab_ab_btn">
+          <Link href={"/contact"}>
           <button>Contact us</button>
+          </Link>
         </div>
       </div>
       <div className="ab_ending_line"></div>

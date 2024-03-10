@@ -1777,7 +1777,7 @@ body.light-mode .video-bg:before {
   outline: none;
   border-radius: 14px;
   transition: 0.5s;
-  padding: 1rem;
+  padding: .6rem;
 }
 .content_button a {
   text-decoration: none;

@@ -48,17 +48,17 @@ const Programming = () => {
     }
   
     return (
-      <div className="background_body">
-        <div className="app">
-          <Projects_header />
-          <div className="wrapper">
-            <div className="left-side">
-              <Side_nav />
-            </div>
+      // <div className="background_body">
+      //   <div className="app">
+      //     <Projects_header />
+      //     <div className="wrapper">
+      //       <div className="left-side">
+      //         <Side_nav />
+      //       </div>
             <All_Projects/>
-          </div>
-        </div>
-      </div>
+      //     </div>
+      //   </div>
+      // </div>
     );
   };
   

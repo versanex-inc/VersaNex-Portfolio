@@ -1,3 +1,4 @@
+'use client'
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -58,7 +59,7 @@ const Projects_header = () => {
         <Link className="menu-link optional-link" href={"/projects/gfxdesigning"}>
           GFX DESIGNING
         </Link>
-        <Link className="menu-link optional-link" href={"//projects/programmig"}>
+        <Link className="menu-link optional-link" href={"/projects/programming"}>
           PROGRAMMING
         </Link>
       </div>

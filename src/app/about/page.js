@@ -1,4 +1,3 @@
-"use client";
 import React from "react";
 
 // icons
@@ -9,6 +8,10 @@ import { CustomCursor } from "@/Components/customCursor";
 import About_US from "@/Components/about/about_us";
 import Skills from "@/Components/about/skills";
 import Services from "@/Components/about/services";
+
+export const metadata = {
+  title: "VersaNex - About",
+};
 
 const About = () => {
   return (
