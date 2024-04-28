@@ -49,13 +49,6 @@ const Project_page = ({ params }) => {
   }
 
   return (
-    <div className="background_body">
-      <div className="app">
-        <Projects_header />
-        <div className="wrapper">
-          <div className="left-side">
-            <Side_nav />
-          </div>
           <div className="content-wrapper">
             <div className="slug_content_box">
               <div className="slug_heading">
@@ -143,9 +136,6 @@ const Project_page = ({ params }) => {
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
   );
 };
 
