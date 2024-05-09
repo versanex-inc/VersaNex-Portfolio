@@ -42,6 +42,7 @@ export default function Home() {
                 alt="background image"
                 width={1200}
                 height={840}
+                
               />
             </div>
             <div className={styles.row_two}>
