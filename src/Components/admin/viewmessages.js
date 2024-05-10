@@ -4,7 +4,7 @@ import React from "react";
 const Admin_Viewmessage_btn = () => {
   return (
     <button className="view_messages">
-      <Link href={"/admin/viewmessages"}>View Messages</Link>
+      <Link href={"/admin/viewmessages"}>View Message</Link>
     </button>
   );
 };
