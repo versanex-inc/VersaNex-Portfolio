@@ -168,9 +168,6 @@ const Admin_Add_project = () => {
                 <label className="label" htmlFor="title">
                   Title
                 </label>
-                <label className="label" htmlFor="title">
-                  Title
-                </label>
               </div>
               <div className="group">
                 <input
