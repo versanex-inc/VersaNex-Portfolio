@@ -3,9 +3,11 @@ import { Project } from "@/utils/models/project";
 import mongoose from "mongoose";
 import { NextResponse } from "next/server";
 
+// ready
 export async function POST(request) {
   try {
     const payload = await request.json();
+    console.log("Received Payload:");
     console.log("Received Payload:");
 
     await mongoose.connect(connectionStr);
